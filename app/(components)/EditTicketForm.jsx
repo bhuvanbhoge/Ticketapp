@@ -171,7 +171,7 @@ const EditTicketForm = ({ ticket }) => {
         />
         <label>Status</label>
         <select name="status" value={formData.status} onChange={handleChange}>
-          <option value="not started">Not Started</option>
+          <option value="not started">Not Started.</option>
           <option value="started">Started</option>
           <option value="done">Done</option>
         </select>

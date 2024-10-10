@@ -10,8 +10,8 @@ config.autoAddCss = false;
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ticket System",
-  description: "Creating a functional ticketing system.",
+  title: "2ndTryHelpdesk",
+  description: "Query/tickets/issues",
 };
 
 export default function RootLayout({ children }) {
